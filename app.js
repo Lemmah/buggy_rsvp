@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ul.appendChild(li);
   });
 
-  ul.addEventListener('change', (event) => {
+  ul.addEventListener('change', (e) => {
     const checkbox = e.target;
     const listItem = checkbox.parentNode.parentNode;
     const checked = checkbox.checked;
@@ -95,13 +95,13 @@ document.addEventListener('DOMContentLoaded', () => {
           li.removeChild(span);
           button.textContent = 'save';   
         },
-        sav: () => {
+        save: () => {
           const input = li.firstElementChild;
           const span = document.createElement('span');
           span.textContent = input.value;
           li.insertBefore(span, input);
           li.removeChild(input);
-          button.textContent = '';        
+          button.textContent = 'edit';        
         }
       };
 

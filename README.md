@@ -12,3 +12,4 @@ Below are a list of bugs in this app:
 Bug fixed:
 * Checking the box to hide unconfirmed guests now works as intended.
 * Submitting new names to the list works as intended.
+* Clicking "Save" when editing a guest's name now saves the edits.
