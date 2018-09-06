@@ -21,9 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
       for (let i = 0; i < lis.length; i += 1) {
         let li = lis[i];
         if (li.className === 'responded') {
-          li.style.display = 'none';
-        } else {
           li.style.display = '';
+        } else {
+          li.style.display = 'none';
         }
       }
     } else {
