@@ -8,3 +8,7 @@ Below are a list of bugs in this app:
 * Checking a box to confirm an individual guest doesn't highlight the list item.
 
 *Note that fixing the bugs listed here may uncover other bugs that need attention. See if you can find and fix those bugs too!*
+
+Bug fixed:
+* Checking the box to hide unconfirmed guests now works as intended.
+* Submitting new names to the list works as intended.
